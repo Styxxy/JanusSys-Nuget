@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Janus.Data.v4</id>
+    <version>$version$</version>
+    <description>Janus.Data.v4</description>
+    <authors>Janus Systems</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/JanusSys-Nuget/master/janus-systems.png</iconUrl>
+    <projectUrl>http://www.janusys.com/</projectUrl>
+    <tags>Janus</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Janus.Data.v4.dll" target="lib\net40" />
+  </files>
+</package>

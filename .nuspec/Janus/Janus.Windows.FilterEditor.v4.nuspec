@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Janus.Windows.FilterEditor.v4</id>
+    <version>$version$</version>
+    <description>Janus.Windows.FilterEditor.v4</description>
+    <authors>Janus Systems</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/JanusSys-Nuget/master/janus-systems.png</iconUrl>
+    <projectUrl>http://www.janusys.com/</projectUrl>
+    <tags>Janus</tags>
+    <dependencies>
+      <dependency id="Janus.Data.v4" version="[$version$]" />
+      <dependency id="Janus.Windows.CalendarCombo.v4" version="[$version$]" />
+      <dependency id="Janus.Windows.Common.v4" version="[$version$]" />
+      <dependency id="Janus.Windows.GridEX.v4" version="[$version$]" />
+      <dependency id="Janus.Windows.UI.v4" version="[$version$]" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="Janus.Windows.FilterEditor.v4.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="Design\Janus.Windows.FilterEditor.Design.dll" target="lib\net40" />
+    <file src="Janus.Windows.FilterEditor.v4.dll" target="lib\net40" />
+    <file src="Janus.Windows.FilterEditor.v4.xml" target="lib\net40" />
+  </files>
+</package>

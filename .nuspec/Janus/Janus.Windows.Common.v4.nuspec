@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Janus.Windows.Common.v4</id>
+    <version>$version$</version>
+    <description>Janus.Windows.Common.v4</description>
+    <authors>Janus Systems</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/JanusSys-Nuget/master/janus-systems.png</iconUrl>
+    <projectUrl>http://www.janusys.com/</projectUrl>
+    <tags>Janus</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="Janus.Windows.Common.v4.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="Design\Janus.Windows.Common.Design.dll" target="lib\net40" />
+    <file src="Janus.Windows.Common.v4.dll" target="lib\net40" />
+    <file src="Janus.Windows.Common.v4.xml" target="lib\net40" />
+  </files>
+</package>
