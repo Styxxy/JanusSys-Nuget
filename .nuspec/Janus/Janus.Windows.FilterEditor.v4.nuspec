@@ -7,7 +7,7 @@
     <authors>Janus Systems</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/Styxxy/JanusSys-Nuget/master/janus-systems.png</iconUrl>
-    <projectUrl>http://www.janusys.com/</projectUrl>
+    <projectUrl>http://www.janusys.net/</projectUrl>
     <tags>Janus</tags>
     <dependencies>
       <dependency id="Janus.Data.v4" version="[$version$]" />
