@@ -1,7 +1,7 @@
 # JanusSys-Nuget
 
 ## Description
-Unofficial Nuget package definitions for the Janus Systems .NET Components (http://www.janusys.com).
+Unofficial Nuget package definitions for the Janus Systems .NET Components (http://www.janusys.net).
 
 Currently only the WinForms libraries are being packaged.
 
